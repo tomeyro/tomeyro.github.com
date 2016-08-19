@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+
+	div#main {
+		width: 100%;
+		max-width: 900px;
+		border-radius: 5px;
+		margin: 10px auto;
+		overflow: hidden;
+
+		div.header, div.footer {
+			padding: 5px 0;
+			background: #2c5aa0;
+			color: #f9f9f9;
+
+			hr {
+				width: 90%;
+				border: 1px solid #162d50;
+				border-radius: 5px;
+				margin: 5px auto;
+			}
+
+			img.logo {
+				width: 100px;
+				margin: 5px;
+				margin-bottom: 10px;
+			}
+		}
+
+		div.cv {
+			background: #f2f2f2;
+			padding-top: 10px;
+			padding-bottom: 10px;
+
+			.section {
+				padding: 5px;
+				margin-bottom: 5px;
+				border-bottom: 1px solid #bbb;
+
+				.section-title {
+					margin-bottom: 5px;
+					color: #2c5aa0;
+				}
+
+				.section-item {
+					padding: 5px;
+
+					.item-title {
+						color: #444;
+						margin-bottom: 5px;
+						margin-top: 5px;
+					}
+					.item-description {
+						font-size: 0.95em;
+					}
+					.item-description:before {
+						content: "- "
+					}
+					.item-sidenote {
+						font-size: 0.9em;
+						color: #555;
+					}
+					.item-sidenote:before {
+						content: "* "
+					}
+				}
+			}
+		}
+	}
+
+	.no-margin {
+		margin: 0;
+	}
+	.pull-center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.show-on-print {
+		display: none;
+	}
+}
+
+@media print {
+	.show-on-print {
+		display: block !important;
+	}
+	.hide-on-print {
+		display: none;
+	}
+}

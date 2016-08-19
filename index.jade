@@ -1,0 +1,240 @@
+doctype html
+html(lang="es")
+  head
+    title="Tomás Álvarez - GAMES | WEB | APPS"
+    link(rel="stylesheet", type="text/css", href="_public/css/bootstrap.min.css")
+    link(rel="stylesheet", type="text/css", href="_public/css/style.css")
+  body
+    - var print_msg = "(Este CV fue generado automáticamente a partir de la versión web. Para más información, descargas y links de interés dirigirse a tomeyro.github.com.)"
+    div(id="main", class="")
+      div(class="header text-center row")
+        div(class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3")
+          img(src="_public/imgs/logo.png", class="logo hide-on-print")
+          h3(class="no-margin") TOMAS ALVAREZ
+          hr
+          t Software a la medida
+          br(class="show-on-print")
+          br(class="show-on-print")
+          small(class="show-on-print")= print_msg
+      div(class="cv row no-margin")
+        -
+          var sections_left = [
+            {
+              title: 'INFORMACIÓN',
+              items: [
+                {
+                  title: 'Personal',
+                  icon: 'glyphicon glyphicon-user',
+                  description: 'Tomás Eduardo Álvarez Fuenmayor',
+                  sidenotes: [
+                    'C.I. V-20164931',
+                    'Carabobo, Venezuela'
+                  ]
+                },
+                {
+                  title: 'Contacto',
+                  icon: 'glyphicon glyphicon-phone',
+                  sidenotes: [
+                    'Teléfono: +58 426 2425804'
+                  ],
+                  links: [
+                    {
+                      title: 'Correo electrónico: tomalvarezf@gmail.com',
+                      href: 'mailto:tomalvarezf@gmail.com'
+                    },
+                    {
+                      title: 'Twitter: @Tomeyro',
+                      href: 'https://twitter.com/tomeyro',
+                      target: '_blank'
+                    },
+                    {
+                      title: 'Instagram: @Tomeyro',
+                      href: 'https://instagram.com/tomeyro',
+                      target: '_blank'
+                    },
+                    {
+                      title: 'Web: tomeyro.github.com',
+                      href: 'https://tomeyro.github.com',
+                      target: '_blank'
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              title: 'ESTUDIOS REALIZADOS',
+              items: [
+                {
+                  title: 'Ingeniería de Sistemas',
+                  icon: 'glyphicon glyphicon-school',
+                  description: 'UNEFA - Maracay, Edo. Aragua (2008-2013)',
+                  sidenotes: [
+                    'Trabajo Especial de Grado aprobado con mención publicación'
+                  ]
+                }
+              ]
+            },
+            {
+              title: 'CURSOS REALIZADOS',
+              items: [
+                {
+                  title: 'Analísta Programador',
+                  icon: 'glyphicon glyphicon-book',
+                  description: 'FUNDAUC - Valencia, Edo. Carabobo (2011)'
+                },
+                {
+                  title: 'Lenguajes de Aplicaciones',
+                  icon: 'glyphicon glyphicon-book',
+                  description: 'Academia de Software Libre - Maracay, Edo. Aragua (2011)',
+                  sidenotes: [
+                    'Duración: 160 horas',
+                    'Contenido: Python, Perl, C, C++',
+                  ]
+                },
+                {
+                  title: 'Manejador de Bases de Datos',
+                  icon: 'glyphicon glyphicon-book',
+                  description: 'Academia de Software Libre - Maracay, Edo. Aragua (2011)',
+                  sidenotes: [
+                    'Duración: 152 horas',
+                    'Contenido: MySQL, PostgreSQL',
+                  ]
+                },
+                {
+                  title: 'Servicios Web',
+                  icon: 'glyphicon glyphicon-book',
+                  description: 'Academia de Software Libre - Maracay, Edo. Aragua (2011)',
+                  sidenotes: [
+                    'Duración: 66 horas',
+                    'Contenido: Javascript, Ajax',
+                  ]
+                },
+                {
+                  title: 'Herramientas de Programación Web',
+                  icon: 'glyphicon glyphicon-book',
+                  description: 'Academia de Software Libre - Maracay, Edo. Aragua (2011)',
+                  sidenotes: [
+                    'Duración: 156 horas',
+                    'Contenido: PHP, XHTML, XML, CSS',
+                  ]
+                }
+              ]
+            }
+          ]
+        -
+          var sections_right = [
+            {
+              title: 'EXPERIENCIA',
+              items: [
+                {
+                  title: 'Las Aventuras de Simón y sus Amigos',
+                  icon: 'glyphicon glyphicon-device',
+                  description: 'Trabajo Especial de Grado',
+                  sidenotes: [
+                    'En conjunto con mi compañera de TEG, desarrollamos de un Videojuego educativo orientado a niños estudiantes de primaria en Venezuela, en donde se enseñan diversos elementos de la historia, geografía, flora y fauna de las diversas regiones Venezolanas.',
+                    'El Videojuego se desarrolló usando tecnologías web, ligeras y multiplataforma para cumplir con el objetivo de poder ejecutarlo en las Canaimitas personales de los estudiantes de la Escuela Primaria seleccionada.',
+                    'Herramientas y lenguajes: Para el desarrollo usamos Cocos2d en su variante orientada a web en Javascript. Los sprites del juego fueron diseñados y elaborados con Krita, Inkscape y Gimp en conjunto, y empaquetadas con SpritePacker. El audio, efectos de sonido y fotos donde se muestran los elementos Venezolanos, se obtuvieron de diferentes fuentes libres.'
+                  ],
+                  links: [
+                    {
+                      title: 'JUGAR UNA MUESTRA DEL JUEGO',
+                      href: 'games/sysa',
+                      class: 'hide-on-print',
+                      target: '_blank'
+                    },
+                    {
+                      title: 'DESCARGAR CODIGO FUENTE (~25MB)',
+                      href: '_public/files/sysa.zip',
+                      class: 'hide-on-print'
+                    }
+                  ]
+                },
+                {
+                  title: 'Programador Senior',
+                  icon: 'glyphicon glyphicon-keyboard',
+                  description: 'Mega Byte, C.A. - Ene/2014, Actualidad',
+                  sidenotes: [
+                    'Parte del equipo de desarrollo de un sistema administrativo empresarial bajo ambiente web (PHP, HTML, Javascript). Encargado de diseñar y desarrollar nuevos módulos y características para dicho sistema, así como también probarlos, debuggearlos y supervisar su correcto funcionamiento luego de la implementación. Prestar soporte técnico a los clientes y usuarios del sistema, y resolver las solicitudes planteadas',
+                    'Encargado del diseño, desarrollo y supervisión de una API para exponer la información del sistema administrativo en formato Json a aplicaciones clientes propietarias y de terceros, y supervisión del desarrollo de una aplicación móvil que acceda a la información expuesta por la API, utilizando herramientas desarrollo bajo ambiente web multiplataforma orientada a dispositivos móviles',
+                    'Herramientas y lenguajes: PHP (Symphony, Composer), Javascript (Angular 1 y 2, Electron, npm)'
+                  ]
+                }
+              ]
+            },
+            {
+              title: 'MÁS CONOCIMIENTOS',
+              items: [
+                {
+                  title: 'Idiomas',
+                  icon: 'glyphicon glyphicon-globe',
+                  sidenotes: [
+                    'Español: Nativo',
+                    'Inglés: Avanzado'
+                  ]
+                },
+                {
+                  title: 'Game Engines',
+                  icon: 'glyphicon glyphicon-game',
+                  sidenotes: [
+                    'Phaser, Cocos2d (Javascript)',
+                    'MonoGame (Mono/C#)',
+                    'Defold (Lua)',
+                    'Godot (gdscript)'
+                  ],
+                  links: [
+                    {
+                      title: 'JUGAR UNA MUESTRA EN PHASER (FLECHAS+Z)',
+                      href: 'games/spaceshooter/app',
+                      class: 'hide-on-print',
+                      target: '_blank'
+                    },
+                    {
+                      title: 'DESCARGAR CODIGO FUENTE (~2MB)',
+                      href: '_public/files/spaceshooter.zip',
+                      class: 'hide-on-print'
+                    }
+                  ]
+                },
+                {
+                  title: 'Web frameworks',
+                  icon: 'glyphicon glyphicon-code',
+                  sidenotes: [
+                    'Symphony, Laravel, CodeIgniter (PHP)',
+                    'Angular 1 y 2, React (Javascript)',
+                    'Bootstrap, Materialize (CSS)'
+                  ]
+                }
+              ]
+            }
+          ]
+        each sections in [sections_left, sections_right]
+          div(class="col-xs-12 col-sm-6")
+            each section in sections
+              div(class="section")
+                h4(class="section-title")
+                  span= section.title
+                each item in section.items ? section.items : []
+                  div(class="section-item")
+                    h4(class="item-title")
+                      if item.icon
+                        i(class=item.icon)
+                      span &nbsp;
+                      span= item.title
+                    if item.description
+                      p(class="item-description")= item.description
+                    each sidenote in item.sidenotes ? item.sidenotes : []
+                      p(class="item-sidenote")= sidenote
+                    each link in item.links ? item.links : []
+                      p(class="item-sidenote "+link.class)
+                        a(href=link.href, target=(link.target ? link.target : ''))= link.title
+      div(class="footer text-center row")
+        div(class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3")
+          small(class="hide-on-print")
+            span(class="glyphicon glyphicon-code")
+            span &nbsp; con &nbsp;
+            span(class="glyphicon glyphicon-heart")
+            span &nbsp; y generado usando Jade + SASS + Bootstrap
+          small(class="show-on-print")= print_msg
+          br
+          small
+            b Tomás Álvarez - 2016

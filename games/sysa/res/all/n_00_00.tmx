@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="61" height="25" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="pack" tilewidth="64" tileheight="64" spacing="2" margin="2">
+  <image source="pack_02.png" width="1124" height="200"/>
+ </tileset>
+ <tileset firstgid="52" name="pack_e" tilewidth="64" tileheight="64">
+  <image source="pack_e_02.png" width="704" height="704"/>
+ </tileset>
+ <layer name="a" width="61" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzwEJAEAIBEH5CPYP+ylOBGdgA2wVAAAAAJDWwbZ6wba6+MysD7v1Afs=
+  </data>
+ </layer>
+ <layer name="e_02" width="61" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1z0OgkAQQGEOJSpYoKKUCiVq6U+JWqrcnXcAQ2LizizsvORryVSzQxRZUs2RIMVCeRapcmywRaE8i1Q77FGiUp5FqhoHHHFSnkWqMy644qY8i1QN7njgqTyLVC+88UGrPIsVTnYv+NEEMaaYOfi+j/dChiVWWDv4vt0LYWT3wu/Z3g8jH/f+P+p7L8e69/veS9v78rm+2b6l/Z/o+mazhlEHBZ8jOw==
+  </data>
+ </layer>
+ <layer name="e_01" width="61" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1zcOAkEMheE5FKEhN+SG3AALNOSGfHv+A2yxI43HBu2Tvm41cuO17VyePPKpoIqadiER00YHXe1CImaEMSbahUTMEiustQuJmD0OOGb4toAiSihLFiWcG+54ZPi2jgaaaAnWZCk99DHAULmWWJlihjkWgd603i8JNthiF+hN6/1ywhkXXAO9ab1fnnjhjU+gNyX6xXoSF75frMe3X/7hPvDtF+v3gcQcsn4fSMwh6/eBxBzyuQ80IjGHfO4DjSQuzhxK+29o7bESe1taLO2vEntbnt/JF5wIKuQ=
+  </data>
+ </layer>
+ <layer name="g" width="61" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztV1sOwyAMi9Stu8BeF9jr/hcclTaJIYKS4HSwYcl/lcEFnIRowBNT4AbI67rbN2EfeAo8AHgL3K67fRMWz6h9IrU8MTy3o+WJf/V8J0weS7U4XXQN4TiTLLePAs8XgU4p55E1BOHnjV3gQ/F9Celb6OVt1GB4bs+zJl+k/WfrnjX5JM2HFj0j8yqHFj17I+cZ1StogDjbReP8Ykkr9Sx5P73Mbhwsdzm9Cz3M6zEsnuO7YDnztP54/bOJ0a7NLMuZx/2t5zvhvNV6tpx5vKZnnfDynGpJMn+mT8/aOVAzu+W04/VrYemZtHPgN2a6X8MTROwWVw==
+  </data>
+ </layer>
+ <objectgroup name="border" width="61" height="25">
+  <object type="0" x="2000" y="1035">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="0" x="2000" y="1073">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="1" x="1999" y="1039">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="2099" y="1039">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="2190" y="907">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="0" x="2190" y="945">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="1" x="2189" y="911">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="2289" y="911">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="2512" y="585">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="0" x="2512" y="623">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="1" x="2511" y="589">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="2611" y="589">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="3086" y="1035">
+   <polyline points="3,2 226,3"/>
+  </object>
+  <object type="0" x="3086" y="1073">
+   <polyline points="3,2 226,2"/>
+  </object>
+  <object type="1" x="3085" y="1039">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="3314" y="1039">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object x="167" y="610">
+   <polyline points="5,13 4,432 580,434 583,561 775,559 777,686 968,687 969,816 1517,816 1517,627 1801,627 1800,819 3179,818 3177,626 3273,627 3272,818 3569,818 3564,-56 2795,-53 2796,-433 1668,-433 1668,-145 2245,-146 2246,-54 1671,-56 1670,13 4,12"/>
+  </object>
+  <object type="0" x="2389" y="784">
+   <polyline points="3,2 725,3"/>
+  </object>
+  <object type="1" x="2388" y="788">
+   <polyline points="0,-1 -1,89"/>
+  </object>
+  <object type="0" x="2386" y="877">
+   <polyline points="3,2 727,3"/>
+  </object>
+  <object type="1" x="3115" y="789">
+   <polyline points="0,-1 -1,89"/>
+  </object>
+  <object type="0" x="1501" y="1308">
+   <polyline points="486,4 1819,7"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="water" width="61" height="25"/>
+ <objectgroup name="player" width="61" height="25">
+  <object type="0" x="192" y="960" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="logic" width="61" height="25">
+  <object type="1" x="2944" y="576" width="64" height="64">
+   <properties>
+    <property name="color" value="1"/>
+   </properties>
+  </object>
+  <object type="1" x="2944" y="640" width="64" height="64">
+   <properties>
+    <property name="color" value="1"/>
+   </properties>
+  </object>
+  <object type="1" x="2944" y="704" width="64" height="64">
+   <properties>
+    <property name="color" value="1"/>
+   </properties>
+  </object>
+  <object type="1" x="3008" y="576" width="64" height="64">
+   <properties>
+    <property name="color" value="2"/>
+   </properties>
+  </object>
+  <object type="1" x="3008" y="640" width="64" height="64">
+   <properties>
+    <property name="color" value="2"/>
+   </properties>
+  </object>
+  <object type="1" x="3008" y="704" width="64" height="64">
+   <properties>
+    <property name="color" value="2"/>
+   </properties>
+  </object>
+  <object type="0" x="2784" y="768" width="64" height="64">
+   <properties>
+    <property name="color" value="1"/>
+   </properties>
+  </object>
+  <object type="0" x="2208" y="448" width="64" height="64">
+   <properties>
+    <property name="color" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="end" width="61" height="25">
+  <object type="0" x="3584" y="1280" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="enemies" width="61" height="25">
+  <object type="1" x="832" y="1088" width="64" height="64">
+   <properties>
+    <property name="left" value="1"/>
+    <property name="right" value="1"/>
+   </properties>
+  </object>
+  <object type="2" x="1792" y="1152" width="64" height="64">
+   <properties>
+    <property name="left" value="2"/>
+    <property name="right" value="2"/>
+   </properties>
+  </object>
+  <object type="4" x="1536" y="1280" width="64" height="64">
+   <properties>
+    <property name="left" value="6"/>
+    <property name="right" value="1"/>
+   </properties>
+  </object>
+  <object type="6" x="1856" y="384" width="64" height="64">
+   <properties>
+    <property name="flip" value="1"/>
+   </properties>
+  </object>
+  <object type="3" x="3200" y="896" width="64" height="64">
+   <properties>
+    <property name="left" value="2"/>
+    <property name="right" value="1"/>
+   </properties>
+  </object>
+  <object type="5" x="2624" y="704" width="64" height="64">
+   <properties>
+    <property name="left" value="4"/>
+    <property name="right" value="4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="info" width="61" height="25">
+  <object type="1" x="512" y="1024" width="64" height="64">
+   <properties>
+    <property name="text" value="Cuidado con los Morrocaus, Gusanosos, y Atones... Puedes desintegrarlos con saltando sobre ellos."/>
+   </properties>
+  </object>
+  <object type="1" x="2560" y="768" width="64" height="64">
+   <properties>
+    <property name="text" value="Acciona las palancas con la letra &quot;e&quot;, ¡asi desaparecerán las cajas correspondientes a su color!"/>
+   </properties>
+  </object>
+  <object type="1" x="3520" y="1408" width="64" height="64">
+   <properties>
+    <property name="text" value="¡Lo lograste! ¡Has recolectado una página perdida del libro!"/>
+   </properties>
+  </object>
+  <object type="1" x="896" y="1152" width="64" height="64">
+   <properties>
+    <property name="text" value="Recolecta los desechos para ser reciclados... Asi obtendrás puntaje, ¡y ayudarás a conservar el ambiente!"/>
+   </properties>
+  </object>
+  <object type="1" x="1728" y="1216" width="64" height="64">
+   <properties>
+    <property name="text" value="Los Culebrines se desintegran con doble salto, al igual que los Marrados."/>
+   </properties>
+  </object>
+  <object type="1" x="2304" y="448" width="64" height="64">
+   <properties>
+    <property name="text" value="A los landuros, hay que saltarles encima doble vez... Lo bueno es que no se mueven, lo malo es que no son indefensos."/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

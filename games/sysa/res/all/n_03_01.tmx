@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="84" height="19" tilewidth="64" tileheight="64" backgroundcolor="#99cccc">
+ <properties>
+  <property name="RGB" value="153,204,204"/>
+ </properties>
+ <tileset firstgid="1" name="pack" tilewidth="64" tileheight="64" spacing="2" margin="2">
+  <image source="pack_03.png" width="926" height="200"/>
+ </tileset>
+ <tileset firstgid="43" name="pack_e" tilewidth="64" tileheight="64">
+  <image source="pack_e_03.png" width="832" height="832"/>
+ </tileset>
+ <layer name="a" width="84" height="19">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJACAQA8HDQuy/TCsIQtDfDKSBvHYGAIBfVhidHUbHnwDATepZjdtJ/aXJ4I0DfcAC1Q==
+  </data>
+ </layer>
+ <layer name="e_01" width="84" height="19">
+  <data encoding="base64" compression="zlib">
+   eJzt1DlTwlAUhuH8HwRaEVtcWhVaFFpRW1BaWVRqllqgZildoJTFv+RbpEiTTDK5J7km+Wae4t7izDdzZo5hJIlLXvCKN/RC7hKF9DHAECPFs+O4q3eMMcFU8WzJXemaGeZYYKl4tuSudM0XvrHCWvFsyV0FFa83a4sd9vhVPFtyV0FF8mZ5ne1lV7pG8mZF+R6mcIA0Msia/5I3y+9su8465BA5HCGPY/Nf8mb5nW3XWYcUcIJTnOHc/Je8WX5n23XWIRe4xBWKKIVbx1V07lzGNW5QQTXUNu6ic+db1HCHezyEW8dVgu78gU+HtzV1NPCIJzRlqylJ0J1/sHF4W/OMFtrooCtbTUn+Y+ckSbzmD7KgY0k=
+  </data>
+ </layer>
+ <layer name="e_02" width="84" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztl7kOAjEMBff/YamBrTlqWErOkvOXmHILsByII7G8kaaIFEVWHD0rVSWEEEKId2xxZ6xFGme8GOuceHs1wCHWOAqqpQ94ezXGCU6xCa3oP5jhHBe4dOxXRtmscI0tbhz7X737XHccOV9KvYM9HvCIpw/P6N7xN3kcOV8iZ1WXK97wjo8M5ymP85Kax8ImNY+FjSeP+/KvKVG3J49L/msi+dW6hbB4AtbbQiE=
+  </data>
+ </layer>
+ <layer name="e_03" width="84" height="19">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEJACAMQ1Gn0gF0/5n06kVQSm3of9B7LLGlAAAAnNU17XeIRxGz9zXjd4hHytmzidj9aG52pNx9ry4o7+hGlnfCB7faFv9zp9QvhaxK/VLKClib2IUHoQ==
+  </data>
+ </layer>
+ <layer name="g" width="84" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztWLsSwyAMY2nTzn3Nff3/LxYPXDmKjY3lZonuPCWRQWALktKGf+Oa4+yMZxBvNLcmlxVLjl2O/WQ8cpwCeKO5tbmsWJw83Pde3mhuJGddLxcHTxnHPf3Wjpc3mnuUi6v9Xq+h8dT1chDyHHO8heevxNeQxKtBJLeUi2qf05brNejxaDDyEYQfINBqW9fCTF+geXO+6pmz5CMoP0CvWaufRc9S2yMfGPUAK6+Hu8eDXDOPnvU3ET7A8Xq5aQ1uybZm5X3NmFs9e3OQ9n2UD0i8qJ6OWDPp/NObQ8+/ZmtY6ldef5nhnl2zVkPt+afN6fUBrl8h/EXipv2AOg+QllYNOfT6jbRX22dr3I9oP6A0rbVE9Zuo+6bmvtFCe3dDaIrWkhCl52xPaWtcmqdH0wgtCZIfakLjmZYc1nNTral13Ggty3i8/7os/ofgQ81hjTv3hi8+qgkj+w==
+  </data>
+ </layer>
+ <objectgroup name="border" width="84" height="19">
+  <object type="1" x="781" y="529">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="782" y="525">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="0" x="782" y="563">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="1" x="881" y="529">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="816" y="719">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="716" y="719">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="717" y="753">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="0" x="717" y="715">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="1" x="1009" y="847">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="909" y="847">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="910" y="881">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="0" x="910" y="843">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="1" x="1457" y="846">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="1357" y="846">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="1358" y="880">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="0" x="1358" y="842">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="1" x="1585" y="719">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="1485" y="719">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="1486" y="753">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="0" x="1486" y="715">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="1" x="1522" y="526">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="1422" y="526">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="1423" y="560">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="0" x="1423" y="522">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="1" x="2289" y="527">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="2189" y="527">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="2190" y="561">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="0" x="2190" y="523">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="1" x="1200" y="336">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="1100" y="336">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="1101" y="370">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="0" x="1101" y="332">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="1" x="2894" y="527">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="2994" y="527">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="2895" y="523">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="0" x="2895" y="561">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="1" x="910" y="462">
+   <polyline points="0,0 1,227"/>
+  </object>
+  <object type="1" x="1396" y="462">
+   <polyline points="0,0 1,227"/>
+  </object>
+  <object type="0" x="660" y="691">
+   <polyline points="253,0 737,1"/>
+  </object>
+  <object type="0" x="909" y="459">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="0" x="1298" y="459">
+   <polyline points="3,2 96,2"/>
+  </object>
+  <object type="1" x="1299" y="461">
+   <polyline points="0,0 -1,127"/>
+  </object>
+  <object type="1" x="1008" y="461">
+   <polyline points="0,0 -1,127"/>
+  </object>
+  <object type="0" x="754" y="591">
+   <polyline points="256,0 544,0"/>
+  </object>
+  <object type="1" x="2319" y="399">
+   <polyline points="0,0 0,289"/>
+  </object>
+  <object type="1" x="2865" y="400">
+   <polyline points="0,0 0,289"/>
+  </object>
+  <object type="0" x="2004" y="694">
+   <polyline points="315,-3 861,-3"/>
+  </object>
+  <object type="0" x="2001" y="402">
+   <polyline points="318,-4 861,-3"/>
+  </object>
+  <object type="0" x="3919" y="753">
+   <polyline points="0,0 547,-1"/>
+  </object>
+  <object type="1" x="3919" y="461">
+   <polyline points="0,0 0,289"/>
+  </object>
+  <object type="0" x="3916" y="461">
+   <polyline points="5,-1 548,1"/>
+  </object>
+  <object type="1" x="4467" y="462">
+   <polyline points="0,0 0,289"/>
+  </object>
+  <object type="1" x="3890" y="590">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="3725" y="591">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="3726" y="625">
+   <polyline points="3,2 161,3"/>
+  </object>
+  <object type="0" x="3726" y="587">
+   <polyline points="3,2 161,2"/>
+  </object>
+  <object x="176" y="430">
+   <polyline points="0,5 0,227 321,227 322,292 513,291 514,608 1437,610 1439,292 1921,292 1920,482 2113,482 2113,610 2718,609 2718,480 2911,480 2912,291 3393,288 3393,352 3460,352 3462,417 3523,416 3523,481 3588,480 3588,547 3651,546 3652,609 4381,608 4381,545 4447,544 4446,481 4511,481 4511,416 4574,415 4574,352 4638,352 4639,289 4831,289 4831,225 5023,224 5023,1 4830,2 4829,-60 4640,-61 4639,-257 3394,-256 3395,-61 2911,-60 2910,-255 1923,-255 1924,-62 1438,-60 1438,-254 514,-252 515,-61 323,-62 323,5 0,4"/>
+  </object>
+  <object type="1" x="4657" y="590">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="1" x="4493" y="591">
+   <polyline points="0,-1 0,36"/>
+  </object>
+  <object type="0" x="4494" y="625">
+   <polyline points="3,2 161,3"/>
+  </object>
+  <object type="0" x="4494" y="587">
+   <polyline points="3,2 161,2"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="water" width="84" height="19">
+  <object type="0" x="1026" y="473">
+   <polyline points="0,0 248,1"/>
+  </object>
+  <object type="0" x="2304" y="984">
+   <polyline points="0,0 569,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="player" width="84" height="19">
+  <object type="0" x="192" y="576" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="logic" width="84" height="19">
+  <object type="1" x="4992" y="448" width="64" height="64">
+   <properties>
+    <property name="color" value="1"/>
+   </properties>
+  </object>
+  <object type="1" x="4992" y="512" width="64" height="64">
+   <properties>
+    <property name="color" value="1"/>
+   </properties>
+  </object>
+  <object type="1" x="4992" y="576" width="64" height="64">
+   <properties>
+    <property name="color" value="1"/>
+   </properties>
+  </object>
+  <object type="0" x="4448" y="1024" width="64" height="64">
+   <properties>
+    <property name="color" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="end" width="84" height="19">
+  <object type="0" x="5120" y="512" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="enemies" width="84" height="19">
+  <object type="3" x="576" y="576" width="64" height="64">
+   <properties>
+    <property name="left" value="1"/>
+    <property name="right" value="1"/>
+   </properties>
+  </object>
+  <object type="1" x="768" y="960" width="64" height="64">
+   <properties>
+    <property name="left" value="1"/>
+    <property name="right" value="12"/>
+   </properties>
+  </object>
+  <object type="1" x="2176" y="832" width="64" height="64">
+   <properties>
+    <property name="left" value="1"/>
+    <property name="right" value="1"/>
+   </properties>
+  </object>
+  <object type="4" x="1152" y="896" width="64" height="64">
+   <properties>
+    <property name="left" value="7"/>
+    <property name="right" value="6"/>
+   </properties>
+  </object>
+  <object type="4" x="1280" y="896" width="64" height="64">
+   <properties>
+    <property name="left" value="8"/>
+    <property name="right" value="4"/>
+   </properties>
+  </object>
+  <object type="6" x="1984" y="640" width="64" height="64"/>
+  <object type="4" x="2752" y="256" width="64" height="64">
+   <properties>
+    <property name="left" value="7"/>
+    <property name="right" value="1"/>
+   </properties>
+  </object>
+  <object type="1" x="1664" y="640" width="64" height="64">
+   <properties>
+    <property name="left" value="1"/>
+    <property name="right" value="6"/>
+   </properties>
+  </object>
+  <object type="5" x="3136" y="640" width="64" height="64">
+   <properties>
+    <property name="left" value="1"/>
+    <property name="right" value="6"/>
+   </properties>
+  </object>
+  <object type="5" x="3968" y="384" width="64" height="64">
+   <properties>
+    <property name="left" value="1"/>
+    <property name="right" value="7"/>
+   </properties>
+  </object>
+  <object type="3" x="4224" y="320" width="64" height="64">
+   <properties>
+    <property name="left" value="5"/>
+    <property name="right" value="3"/>
+   </properties>
+  </object>
+  <object type="5" x="4032" y="960" width="64" height="64">
+   <properties>
+    <property name="left" value="3"/>
+    <property name="right" value="7"/>
+   </properties>
+  </object>
+  <object type="3" x="3904" y="896" width="64" height="64">
+   <properties>
+    <property name="left" value="1"/>
+    <property name="right" value="9"/>
+   </properties>
+  </object>
+  <object type="2" x="4864" y="640" width="64" height="64">
+   <properties>
+    <property name="left" value="1"/>
+    <property name="right" value="1"/>
+   </properties>
+  </object>
+  <object type="4" x="3392" y="576" width="64" height="64">
+   <properties>
+    <property name="left" value="5"/>
+    <property name="right" value="2"/>
+   </properties>
+  </object>
+  <object type="6" x="4352" y="960" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="info" width="84" height="19">
+  <object type="1" x="1024" y="1024" width="64" height="64">
+   <properties>
+    <property name="text" value="Recuerda: Cartón y metal van separados."/>
+   </properties>
+  </object>
+  <object type="1" x="2368" y="384" width="64" height="64">
+   <properties>
+    <property name="text" value="Por una Venezuela limpia, reciclemos juntos."/>
+   </properties>
+  </object>
+  <object type="1" x="5376" y="1024" width="64" height="64">
+   <properties>
+    <property name="text" value="Usa las papeleras de colores... ¡Es momento de reciclar!"/>
+   </properties>
+  </object>
+  <object type="1" x="2944" y="896" width="64" height="64">
+   <properties>
+    <property name="text" value="Usa las papeleras de colores... ¡Es momento de reciclar!"/>
+   </properties>
+  </object>
+  <object type="1" x="4160" y="1024" width="64" height="64">
+   <properties>
+    <property name="text" value="No arrojes desperdicios en la calle... Depositalos en su papelera correspondiente."/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

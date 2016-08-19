@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="21" height="13" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="pack" tilewidth="64" tileheight="64" spacing="2" margin="2">
+  <image source="pack_03.png" width="926" height="200"/>
+ </tileset>
+ <tileset firstgid="43" name="pack_e" tilewidth="64" tileheight="64">
+  <image source="pack_e_03.png" width="832" height="832"/>
+ </tileset>
+ <layer name="Capa de patrones 2" width="21" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUAMwUhHDAD8VMa0AAKKAATE=
+  </data>
+ </layer>
+ <layer name="Capa de patrones 4" width="21" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUYAPTgHg6lfUtBuIlZNiFSx8IbADijSTqwacPH8CmBwDLFguA
+  </data>
+ </layer>
+ <layer name="Capa de patrones 3" width="21" height="13">
+  <data encoding="base64" compression="zlib">
+   eJy1zCsWggAURVGGhJAVMmBWyHyyYuYzBqUrHejC4DgTeOEtn3etHe9xnP/tiRcGw+YbH4yGzQkzFsPmFys2o56LAzz4Rt8jTggQKpvSN0KMBGdlU/pecEWKTNmUvjkKlKiUTel7wx01Hsqm9G3QokOvbP7y1WwHdfkbNw==
+  </data>
+ </layer>
+ <layer name="Capa de patrones 1" width="21" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzjY2BgkMSDNRhQAR8R6nmAmAuIuXFgXjQzpfGoVQdiCaiZEgzUATCzaGmmJhDLALEWieYg66OHO2lpJrYwIFZsqPsdBnClA3zpA9lMNQb8+Y1YLAU1E19eIweD8jIAPskLYw==
+  </data>
+ </layer>
+ <objectgroup name="border" width="21" height="13">
+  <object type="1" x="393" y="652">
+   <polyline points="-1,-3 -1,44"/>
+  </object>
+  <object type="0" x="431" y="646">
+   <polyline points="-37,2 136,2"/>
+  </object>
+  <object type="1" x="567" y="656">
+   <polyline points="1,-7 1,42"/>
+  </object>
+  <object type="0" x="431" y="694">
+   <polyline points="-30,3 127,2"/>
+  </object>
+  <object x="567" y="139">
+   <polyline points="-3,-127 -1,-21 -448,-23 -450,573 660,572 660,-24 209,-20 211,-130"/>
+  </object>
+  <object type="1" x="777" y="651">
+   <polyline points="-1,-3 -1,44"/>
+  </object>
+  <object type="1" x="951" y="655">
+   <polyline points="1,-7 1,42"/>
+  </object>
+  <object type="0" x="815" y="645">
+   <polyline points="-37,2 136,2"/>
+  </object>
+  <object type="0" x="815" y="693">
+   <polyline points="-30,3 127,2"/>
+  </object>
+  <object type="1" x="905" y="459">
+   <polyline points="-1,-3 -1,44"/>
+  </object>
+  <object type="1" x="1079" y="463">
+   <polyline points="1,-7 1,42"/>
+  </object>
+  <object type="0" x="943" y="453">
+   <polyline points="-37,2 136,2"/>
+  </object>
+  <object type="0" x="943" y="501">
+   <polyline points="-30,3 127,2"/>
+  </object>
+  <object type="1" x="1033" y="267">
+   <polyline points="-1,-3 -1,44"/>
+  </object>
+  <object type="1" x="1207" y="271">
+   <polyline points="1,-7 1,42"/>
+  </object>
+  <object type="0" x="1071" y="261">
+   <polyline points="-37,2 136,2"/>
+  </object>
+  <object type="0" x="1071" y="309">
+   <polyline points="-30,3 127,2"/>
+  </object>
+  <object type="1" x="138" y="268">
+   <polyline points="-1,-3 -1,44"/>
+  </object>
+  <object type="1" x="312" y="272">
+   <polyline points="1,-7 1,42"/>
+  </object>
+  <object type="0" x="176" y="262">
+   <polyline points="-37,2 136,2"/>
+  </object>
+  <object type="0" x="176" y="310">
+   <polyline points="-30,3 127,2"/>
+  </object>
+  <object type="1" x="265" y="460">
+   <polyline points="-1,-3 -1,44"/>
+  </object>
+  <object type="1" x="439" y="464">
+   <polyline points="1,-7 1,42"/>
+  </object>
+  <object type="0" x="303" y="454">
+   <polyline points="-37,2 136,2"/>
+  </object>
+  <object type="0" x="303" y="502">
+   <polyline points="-30,3 127,2"/>
+  </object>
+  <object type="1" x="585" y="460">
+   <polyline points="-1,-3 -1,44"/>
+  </object>
+  <object type="0" x="623" y="454">
+   <polyline points="-37,2 136,2"/>
+  </object>
+  <object type="0" x="623" y="502">
+   <polyline points="-30,3 127,2"/>
+  </object>
+  <object type="1" x="759" y="464">
+   <polyline points="1,-7 1,42"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="player" width="21" height="13">
+  <object type="0" x="640" y="384" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="water" width="21" height="13">
+  <object x="122" y="666">
+   <polyline points="-3,3 1106,3"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="logic" width="21" height="13">
+  <object type="0" x="448" y="640" width="64" height="64">
+   <properties>
+    <property name="color" value="2"/>
+   </properties>
+  </object>
+  <object type="0" x="832" y="640" width="64" height="64">
+   <properties>
+    <property name="color" value="2"/>
+   </properties>
+  </object>
+  <object type="1" x="576" y="64" width="64" height="64">
+   <properties>
+    <property name="color" value="2"/>
+   </properties>
+  </object>
+  <object type="1" x="640" y="64" width="64" height="64">
+   <properties>
+    <property name="color" value="2"/>
+   </properties>
+  </object>
+  <object type="1" x="704" y="64" width="64" height="64">
+   <properties>
+    <property name="color" value="2"/>
+   </properties>
+  </object>
+  <object type="1" x="640" y="0" width="64" height="64">
+   <properties>
+    <property name="color" value="0"/>
+   </properties>
+  </object>
+  <object type="1" x="704" y="0" width="64" height="64">
+   <properties>
+    <property name="color" value="2"/>
+   </properties>
+  </object>
+  <object type="1" x="576" y="0" width="64" height="64">
+   <properties>
+    <property name="color" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="boss" width="21" height="13">
+  <object type="3" x="1280" y="0" width="64" height="64"/>
+  <object type="0" x="1280" y="384" width="64" height="64"/>
+  <object type="0" x="1280" y="576" width="64" height="64"/>
+  <object type="0" x="1280" y="192" width="64" height="64"/>
+  <object type="0" x="0" y="192" width="64" height="64"/>
+  <object type="0" x="0" y="384" width="64" height="64"/>
+  <object type="0" x="0" y="576" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="end" width="21" height="13">
+  <object type="0" x="672" y="320" width="64" height="64"/>
+ </objectgroup>
+</map>
